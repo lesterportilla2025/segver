@@ -91,16 +91,17 @@ DATABASES = {
     }
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'segver',
-        'USER': 'root',
-        'PASSWORD': 'robotica',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+# Uncomment below for MySQL configuration in production
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'segver',
+#         'USER': 'root',
+#         'PASSWORD': 'robotica',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 
 
 
