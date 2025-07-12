@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'segver',
     'rest_framework',
+    'quality_agent',
 ]
 
 MIDDLEWARE = [
